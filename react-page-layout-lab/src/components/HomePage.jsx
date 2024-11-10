@@ -14,7 +14,7 @@ function HomePage() {
 
 const homepageStyle = {
     border: '3px solid orange',
-    width: '600px',
+    width: '500px',
     height: '650px',
     margin: '20px 20px 20px 100px',
     //marginTop: '5%',

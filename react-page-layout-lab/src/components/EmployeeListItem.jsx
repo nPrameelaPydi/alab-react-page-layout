@@ -1,9 +1,11 @@
+import dummyProfilePic from '../assets/dummyProfilePic.png';
+
 function EmployeeListItem() {
     return (
         <div style={{ border: '2px solid red', margin: '2px 1px' }}>
             <div className="empListItem" style={{ display: 'flex', alignItems: 'center' }}>
                 <img
-                    src="https://via.placeholder.com/80"
+                    src={dummyProfilePic}
                     alt="Employee"
                     style={{
                         width: '60px',
@@ -14,7 +16,7 @@ function EmployeeListItem() {
                     }}
                 />
                 <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.2' }}>
-                    <h4 style={{ color: 'black', margin: 0, fontSize: '16px' }}>Full Name</h4>
+                    <h4 style={{ color: 'black', margin: 0, fontSize: '16px', padding: '2px' }}>Full Name</h4>
                     <p style={{ color: 'grey', margin: 0, fontSize: '14px' }}>Role or Designation</p>
                 </div>
             </div>
