@@ -13,14 +13,14 @@ function HomePage() {
 }
 
 const homepageStyle = {
-    border: '3px solid orange',
+    border: '4px solid orange',
     width: '500px',
-    height: '650px',
+    height: '642px',
     margin: '20px 20px 20px 100px',
     //marginTop: '5%',
-    padding: '8px 5px 0px 5px',
+    padding: '1px',
     //paddingBottom: '0px',
-    backgroundColor: 'ivory'
+    backgroundColor: 'white'
 };
 
 export default HomePage

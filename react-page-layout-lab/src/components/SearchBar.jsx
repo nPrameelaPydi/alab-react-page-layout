@@ -1,10 +1,10 @@
 function SearchBar() {
     return (
         <h2 style={{
-            border: '3px solid green',
-            padding: '10px',
+            border: '4px solid green',
+            padding: '5px',
             marginTop: '0px',
-            marginBottom: '0px',
+            marginBottom: '1px',
             textAlign: 'center',
             color: 'black',
         }}>

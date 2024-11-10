@@ -1,10 +1,10 @@
 function Header() {
     return (
         <h2 style={{
-            border: '3px solid blue',
-            padding: '10px',
-            marginTop: '0px',
-            marginBottom: '0px',
+            border: '4px solid blue',
+            padding: '5px',
+            marginTop: '1px',
+            marginBottom: '1px',
             textAlign: 'center',
             color: 'black',
         }}>

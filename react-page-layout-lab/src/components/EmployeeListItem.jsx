@@ -2,7 +2,7 @@ import dummyProfilePic from '../assets/dummyProfilePic.png';
 
 function EmployeeListItem() {
     return (
-        <div style={{ border: '2px solid red', margin: '2px 1px' }}>
+        <div style={{ border: '3px solid red', margin: '2px 1px' }}>
             <div className="empListItem" style={{ display: 'flex', alignItems: 'center' }}>
                 <img
                     src={dummyProfilePic}
