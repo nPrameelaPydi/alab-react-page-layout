@@ -1,14 +1,15 @@
-import './App.css'
-import Header from './components/Header.jsx'
-import HomePage from './components/HomePage.jsx'
+//import './App.css'
+//import HomePage from './components/HomePage';
+
+import HomePage from "./components/HomePage";
 
 function App() {
+
   return (
-    <>
-      <Header />
+    <div>
       <HomePage />
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
